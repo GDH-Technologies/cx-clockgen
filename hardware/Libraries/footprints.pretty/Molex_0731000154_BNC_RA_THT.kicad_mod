@@ -6,7 +6,7 @@
 	(descr "Molex 0731000154 / 73100-0154 BNC right-angle through-hole PCB jack footprint, based on recommended PCB pattern")
 	(tags "Molex 0731000154 73100-0154 BNC right-angle THT")
 	(property "Reference" "J?"
-		(at 0 -15.5 0)
+		(at 0 -4.7 0)
 		(layer "F.SilkS")
 		(uuid "54d0fa73-9abe-4508-8d6d-3933893c13a6")
 		(effects

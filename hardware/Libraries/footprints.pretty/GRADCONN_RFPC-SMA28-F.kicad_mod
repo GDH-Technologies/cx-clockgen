@@ -216,7 +216,7 @@
 		(uuid "b6204eab-924e-4288-8d9a-048ff6957c5c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/3D Models/RFPC-SMA28-F.STEP"
+	(model "${KIPRJMOD}/../Libraries/3D Models/RFPC-SMA28-F.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

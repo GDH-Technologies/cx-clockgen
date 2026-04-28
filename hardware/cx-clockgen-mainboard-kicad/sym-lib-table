@@ -1,6 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../raspberrypi-pico-lib/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/raspberrypi-pico-lib/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
   (lib (name "adafruit-si5351")(type "KiCad")(uri "${KIPRJMOD}/adafruit-si5351.kicad_sym")(options "")(descr ""))
   (lib (name "black-pcm1802")(type "KiCad")(uri "${KIPRJMOD}/black-pcm1802.kicad_sym")(options "")(descr ""))
+  (lib (name "Clockgen Lib")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/Symbol_Library.kicad_sym")(options "")(descr ""))
 )
