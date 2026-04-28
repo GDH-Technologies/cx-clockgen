@@ -1,0 +1,212 @@
+(footprint "Molex_0731000154_BNC_RA_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex 0731000154 / 73100-0154 BNC right-angle through-hole PCB jack footprint, based on recommended PCB pattern")
+	(tags "Molex 0731000154 73100-0154 BNC right-angle THT")
+	(property "Reference" "J?"
+		(at 0 -15.5 0)
+		(layer "F.SilkS")
+		(uuid "54d0fa73-9abe-4508-8d6d-3933893c13a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_0731000154"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "68cca5ab-ad7d-4cc8-99c8-6f64e1d3f795")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3baed21b-8155-4d77-94c3-73ce4c48b49d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f15b5ee7-37ee-4c4e-8c3d-d5d6888535c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.2 1.2)
+		(end -1.2 0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "241bbbef-7895-479b-b0d3-534df4267814")
+	)
+	(fp_line
+		(start -1.2 1.2)
+		(end -0.4 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55fc3eb6-7698-462b-b1dd-3829c3a0870f")
+	)
+	(fp_line
+		(start -7 -12.4)
+		(end 7 -12.4)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "e8188dcd-225f-4cbb-b28a-6870c4f0762c")
+	)
+	(fp_line
+		(start -7.25 -12.45)
+		(end 7.25 -12.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ac509c1-e33a-4dca-8678-3c2046f1ab45")
+	)
+	(fp_line
+		(start -7.25 2.25)
+		(end -7.25 -12.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75552029-1ac8-4d0d-bf5c-be4db0b7dbba")
+	)
+	(fp_line
+		(start 7.25 -12.45)
+		(end 7.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b54e80f-e828-4fdc-8ba3-ff58a7435947")
+	)
+	(fp_line
+		(start 7.25 2.25)
+		(end -7.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02c1387f-2e16-4ba4-9fac-34cf3dd86c93")
+	)
+	(fp_line
+		(start -7 -12.2)
+		(end -7 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e976d3e-422e-4710-8b30-dd5bafe2ded9")
+	)
+	(fp_line
+		(start -7 -12.2)
+		(end 7 -12.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d1c7f38-3335-48eb-a694-9531e0459580")
+	)
+	(fp_line
+		(start -7 2)
+		(end 7 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea5f9c7b-589e-48ea-acba-5a3129810b49")
+	)
+	(fp_line
+		(start 7 -12.2)
+		(end 7 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "808215b4-9533-411a-9dbe-d936dfb4bc05")
+	)
+	(fp_text user "PCB EDGE"
+		(at 0 -11.6 0)
+		(layer "Dwgs.User")
+		(uuid "547b2692-06e2-48ec-b8c7-8c60a1b492c1")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f5077b7-5cf6-4083-a466-72715f036f20")
+	)
+	(pad "2" thru_hole circle
+		(at -3.8 -7.8)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7acac6d1-c297-473e-ac2a-bd5807e7c300")
+	)
+	(pad "2" thru_hole circle
+		(at 3.8 -7.8)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "175a4394-e51b-4a3a-85db-5610752de85f")
+	)
+	(embedded_fonts no)
+	(model "/home/rdodge/KiCad/libraries/3D Models/731000154.stp"
+		(offset
+			(xyz 0 25.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

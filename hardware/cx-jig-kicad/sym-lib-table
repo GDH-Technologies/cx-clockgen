@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "custom-vt610ex-sc3a")(type "KiCad")(uri "${KIPRJMOD}/custom-vt610ex-sc3a.kicad_sym")(options "")(descr ""))
+)
