@@ -3,8 +3,10 @@
 # SPDX-License-Identifier: BSD-3-Clause
 # Copyright (c) 2023 Rene Wolf
 
-source source-common.sh
-source source-pi.sh
+SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+source "$SCRIPT_DIR/source-common.sh"
+source "$SCRIPT_DIR/source-pi.sh"
 
 function tee_build_log
 {
@@ -64,12 +66,22 @@ if [[ "$PICO_SDK_PATH" == "" ]] || [[ ! -d "$PICO_SDK_PATH" ]] ; then
 	die "PICO_SDK_PATH='$PICO_SDK_PATH' does not exist"
 fi
 
+export CMAKE_POLICY_VERSION_MINIMUM="${CMAKE_POLICY_VERSION_MINIMUM:-3.5}"
+
 # https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html
 # https://github.com/raspberrypi/pico-sdk/tree/master/src/boards/include/boards
 PICO_SDK_PATH="$PICO_SDK_PATH" cmake . | tee_build_log
+cmake_status=${PIPESTATUS[0]}
+if [[ $cmake_status -ne 0 ]] ; then
+	die "cmake failed with exit code $cmake_status"
+fi
 
 threads=$(get_compile_threads)
 echo "Will compile with $threads threads" | tee_build_log
 make -j $threads | tee_build_log
+make_status=${PIPESTATUS[0]}
+if [[ $make_status -ne 0 ]] ; then
+	die "make failed with exit code $make_status"
+fi
 
 gen_build_info_txt "$FILE_BUILD_INFO_TXT"

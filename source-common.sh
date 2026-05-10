@@ -53,10 +53,11 @@ function detect_commit
 			CI_COMMIT_SHA=$GIT_COMMIT
 		else
 			# try to autodetect
-			local owd="$(pwd)"
-			cd "$WORKSPACE"
-			CI_COMMIT_SHA=$(git rev-parse HEAD)
-			cd "$owd"
+			if git -C "$WORKSPACE" rev-parse --is-inside-work-tree > /dev/null 2>&1 ; then
+				CI_COMMIT_SHA=$(git -C "$WORKSPACE" rev-parse HEAD)
+			else
+				CI_COMMIT_SHA=unknown
+			fi
 		fi
 	fi
 
@@ -65,7 +66,7 @@ function detect_commit
 	fi
 
 	if [[ "$CI_COMMIT_SHORT_SHA" == "" ]] ; then
-		CI_COMMIT_SHORT_SHA=$(echo $CI_COMMIT_SHA | head -c 8)
+		CI_COMMIT_SHORT_SHA="${CI_COMMIT_SHA:0:8}"
 	fi
 
 	# maybe autodetect CI_COMMIT_TAG
@@ -92,7 +93,7 @@ function detect_version
         V_PRE=""
     fi
 
-    if [[ "$V_MAJOR" == "" ]] || [[ "$V_MAJOR" == "" ]] || [[ "$V_MAJOR" == "" ]] ; then 
+    if [[ "$V_MAJOR" == "" ]] || [[ "$V_MINOR" == "" ]] || [[ "$V_PATCH" == "" ]] ; then 
         V_MAJOR=0
         V_MINOR=0
         V_PATCH=0

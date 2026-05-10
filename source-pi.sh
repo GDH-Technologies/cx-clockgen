@@ -1,7 +1,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 # Copyright (c) 2023 Rene Wolf
 
-source source-common.sh
+SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+if [[ "$DIR_FIRMWARE" == "" ]] ; then
+	source "$SCRIPT_DIR/source-common.sh"
+fi
 
 function _pico_get_repo
 {

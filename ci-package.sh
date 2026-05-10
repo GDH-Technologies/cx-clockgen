@@ -3,8 +3,10 @@
 # SPDX-License-Identifier: BSD-3-Clause
 # Copyright (c) 2023 Rene Wolf
 
-source source-common.sh
-source source-pi.sh
+SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+source "$SCRIPT_DIR/source-common.sh"
+source "$SCRIPT_DIR/source-pi.sh"
 
 cd "$DIR_FIRMWARE" || die "can't cd to '$DIR_FIRMWARE'"
 
