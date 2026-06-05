@@ -242,7 +242,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${proj-version}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -470,7 +470,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -661,7 +661,7 @@
       {
         "filename": "vt610ex-sc3a-clock-gen-adapter.kicad_sch",
         "name": "vt610ex-sc3a-clock-gen-adapter",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "1dbcd153-f5a7-436e-9c59-1246c5e4537f"
       }
     ],
     "used_designators": "",
@@ -670,7 +670,7 @@
   "sheets": [
     [
       "1dbcd153-f5a7-436e-9c59-1246c5e4537f",
-      "Root"
+      "vt610ex-sc3a-clock-gen-adapter"
     ]
   ],
   "text_variables": {
