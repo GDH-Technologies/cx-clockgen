@@ -1,7 +1,5 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/raspberrypi-pico-lib/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
-  (lib (name "adafruit-si5351")(type "KiCad")(uri "${KIPRJMOD}/adafruit-si5351.kicad_sym")(options "")(descr ""))
-  (lib (name "black-pcm1802")(type "KiCad")(uri "${KIPRJMOD}/black-pcm1802.kicad_sym")(options "")(descr ""))
-  (lib (name "Clockgen Lib")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/Symbol_Library.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "GDH Modules") (type "KiCad") (uri "${GDH_LIB_DIR}/GDH_modules.kicad_sym") (options "") (descr "GDH custom modules/boards (RPi Pico, RP2040, Si5351, PCM1802, HC-49)"))
+	(lib (name "GDH Connectors") (type "KiCad") (uri "${GDH_LIB_DIR}/GDH_connectors.kicad_sym") (options "") (descr "GDH custom connectors (FPC, SMA, USB-C, BNC)"))
 )

@@ -179,7 +179,7 @@
 	(property "proj-license" "CC BY-SA 4.0")
 	(property "proj-title" "clock-gen adc main board")
 	(property "proj-version" "1.0")
-	(footprint "black-pcm1802:black-pcm1802-board"
+	(footprint "GDH Modules:black-pcm1802-board"
 		(layer "F.Cu")
 		(uuid "0a3f38a3-547f-48ea-8c1d-ac53b1deb258")
 		(at 148.75 114.4345 180)
@@ -2505,7 +2505,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "vhs_decode_footprints:Molex_0731000154_BNC_RA_THT"
+	(footprint "GDH Connectors:Molex_0731000154_BNC_RA_THT"
 		(layer "F.Cu")
 		(uuid "65151e43-893d-40c3-b418-16bc59b5c06e")
 		(at 110.5 81 90)
@@ -2930,7 +2930,7 @@
 			)
 		)
 	)
-	(footprint "Clockgen Footprints:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "75a30686-4fad-4096-aa4f-f742eeddd440")
 		(at 118.74 77.64 90)
@@ -3507,7 +3507,7 @@
 			)
 		)
 	)
-	(footprint "Clockgen Footprints:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "915d25b9-8c64-49f2-bef4-f61583533bb9")
 		(at 128.6 117.76)
@@ -3802,7 +3802,7 @@
 			)
 		)
 	)
-	(footprint "Clockgen Footprints:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "9b3c0d9f-d265-4257-888f-cdc16db2ac67")
 		(at 117.1 117.76)
@@ -4307,7 +4307,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "adafruit-si5351:Adafruit_Si5351A_Breakout_Board"
+	(footprint "GDH Modules:Adafruit_Si5351A_Breakout_Board"
 		(layer "F.Cu")
 		(uuid "bcda8b92-c756-46e9-bd24-ee8065731d66")
 		(at 121 123.25 180)
