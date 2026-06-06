@@ -177,8 +177,8 @@
 	(property "fab-pcbway" "WayWayWay")
 	(property "proj-author" "Reece Dodge")
 	(property "proj-license" "CC BY-SA 4.0")
-	(property "proj-title" "clock-gen adc main board")
-	(property "proj-version" "1.0")
+	(property "proj-title" "Clockgen ADC Main Board")
+	(property "proj-version" "1.1")
 	(footprint "GDH Modules:black-pcm1802-board"
 		(layer "F.Cu")
 		(uuid "0a3f38a3-547f-48ea-8c1d-ac53b1deb258")
@@ -588,7 +588,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://black-pcm1802-breakout-board.wrl"
+		(model "${GDH_3DMODEL_DIR}/black-pcm1802-breakout-board.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4545,7 +4545,7 @@
 			(uuid "19f01cac-2ba2-47de-ac7f-f710e6f9bc48")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://adafruit-si5351-breakout.wrl"
+		(model "${GDH_3DMODEL_DIR}/adafruit-si5351-breakout.step"
 			(offset
 				(xyz 0 0.26 0.8)
 			)
