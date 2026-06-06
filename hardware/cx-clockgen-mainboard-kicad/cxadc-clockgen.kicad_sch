@@ -1,0 +1,168 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2f91e4ff-1d10-4650-a0e5-fe919edb3c31")
+	(paper "A4")
+	(title_block
+		(title "${proj-title}")
+		(date "2026-06-06")
+		(company "${proj-company}")
+		(comment 1 "${proj-license}")
+	)
+	(lib_symbols)
+	(group "hifi-cx-jig"
+		(uuid "0a8b23fb-e3f1-4501-8e16-653751da2134")
+		(lib_id "GDH_design_blocks:cx-jig")
+		(members "026e20c2-30ab-4e13-886d-66f71a7f8a31")
+	)
+	(group "video-cx-jig"
+		(uuid "5fbf99de-5326-4c3c-a00f-8b5ff9796068")
+		(lib_id "GDH_design_blocks:cx-jig")
+		(members "f929e4f4-c4e5-446b-9077-e2d2715e20d6")
+	)
+	(sheet
+		(at 80.01 124.46)
+		(size 72.39 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "026e20c2-30ab-4e13-886d-66f71a7f8a31")
+		(property "Sheetname" "HiFi Audio CX Jig"
+			(at 80.01 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hifi-cx-jig.kicad_sch"
+			(at 80.01 169.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock-gen-main-board"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 25.4)
+		(size 91.44 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a0b4abf6-98bc-4c88-b971-3db1dc4287b5")
+		(property "Sheetname" "Main Board"
+			(at 36.83 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main-board.kicad_sch"
+			(at 36.83 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock-gen-main-board"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 86.36)
+		(size 53.34 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f929e4f4-c4e5-446b-9077-e2d2715e20d6")
+		(property "Sheetname" "Video CX Jig"
+			(at 195.58 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "video-cx-jig.kicad_sch"
+			(at 195.58 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock-gen-main-board"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

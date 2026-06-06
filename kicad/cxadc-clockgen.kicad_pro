@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 1.75,
+          "height": 2.625,
+          "width": 2.625
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -100,7 +100,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -117,9 +117,9 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -147,12 +147,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.125,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -160,9 +160,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.125,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -180,7 +180,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -191,7 +191,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +202,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -214,8 +214,14 @@
       ],
       "track_widths": [
         0.0,
+        0.127,
+        0.15,
+        0.2,
         0.25,
-        0.5
+        0.3,
+        0.5,
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -247,6 +253,26 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.35
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -258,7 +284,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "${proj-version}"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -504,11 +530,14 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "GDH_Technologies",
+      "GDH VC"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vt610ex-sc3a-clock-gen-adapter.kicad_pro",
+    "filename": "cxadc-clockgen.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -694,6 +723,10 @@
       {
         "netclass": "Analog",
         "pattern": "/*AIN*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/Head_SW_In"
       }
     ]
   },
@@ -779,16 +812,72 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "": []
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -832,9 +921,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "vt610ex-sc3a-clock-gen-adapter.kicad_sch",
-        "name": "vt610ex-sc3a-clock-gen-adapter",
-        "uuid": "1dbcd153-f5a7-436e-9c59-1246c5e4537f"
+        "filename": "cxadc-clockgen.kicad_sch",
+        "name": "cxadc-clockgen",
+        "uuid": "2a3a637b-b94b-4be9-87ef-a5e732197656"
       }
     ],
     "used_designators": "",
@@ -842,16 +931,29 @@
   },
   "sheets": [
     [
-      "1dbcd153-f5a7-436e-9c59-1246c5e4537f",
-      "vt610ex-sc3a-clock-gen-adapter"
+      "2a3a637b-b94b-4be9-87ef-a5e732197656",
+      "cxadc-clockgen"
+    ],
+    [
+      "a0b4abf6-98bc-4c88-b971-3db1dc4287b5",
+      "Main Board"
+    ],
+    [
+      "f929e4f4-c4e5-446b-9077-e2d2715e20d6",
+      "Video CX Jig"
+    ],
+    [
+      "6985e90f-6676-4a6b-af77-6bfae7c1008f",
+      "HiFi CX Jig"
     ]
   ],
   "text_variables": {
+    "fab-jlc": "JLCJLCJLCJLC",
     "proj-author": "Reece Dodge",
     "proj-company": "GDH Technologies LLC",
     "proj-fab": "JLCPCB",
     "proj-license": "CC BY-SA 4.0",
-    "proj-title": "CX Jig",
+    "proj-title": "CXADC Clockgen Mod",
     "proj-version": "1.0"
   },
   "tuning_profiles": {

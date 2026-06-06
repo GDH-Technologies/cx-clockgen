@@ -5,10 +5,10 @@
 	(uuid "1dbcd153-f5a7-436e-9c59-1246c5e4537f")
 	(paper "A4")
 	(title_block
-		(title "${proj-title}")
-		(date "2023-11-26")
+		(title "Video CX Jig")
+		(date "2026-06-06")
 		(rev "${proj-version}")
-		(company "${proj-author}")
+		(company "${proj-company}")
 		(comment 1 "${proj-license}")
 	)
 	(lib_symbols
@@ -861,69 +861,99 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ""
+		(exclude_from_sim no)
+		(at 185.166 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ddb8e04-0993-4486-8f34-3fd27d936fea")
+	)
+	(text_box "Connected to CLK0 output from Si5351A Clock Generator Breakout Board"
+		(exclude_from_sim no)
+		(at 172.72 81.28 0)
+		(size 24.13 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d232ab0f-4df0-4d1e-b420-da6cf00cdb9c")
+	)
 	(junction
-		(at 133.35 99.06)
+		(at 142.24 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "008a2302-379d-458c-a9b6-f628d75de374")
 	)
 	(junction
-		(at 99.06 125.73)
+		(at 107.95 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b13ff34-0abb-4bf9-9022-be2d1bc5b495")
 	)
 	(junction
-		(at 99.06 128.27)
+		(at 107.95 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bd0bf30-b38e-4810-9132-53099524a932")
 	)
 	(junction
-		(at 105.41 99.06)
+		(at 114.3 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b46155b-0659-4ee0-b8a0-851a79efccdb")
 	)
 	(junction
-		(at 120.65 115.57)
+		(at 129.54 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77c79f05-5804-436b-b887-1efe14ce883e")
 	)
 	(junction
-		(at 120.65 128.27)
+		(at 129.54 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dfc20e4-862d-44cb-bd94-00c4dfdbabf8")
 	)
 	(junction
-		(at 133.35 115.57)
+		(at 142.24 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c1e2c3e-3201-48eb-a836-43f6611f7575")
 	)
 	(junction
-		(at 105.41 128.27)
+		(at 114.3 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f2bc415-3046-4322-b13e-a3f831ad56e5")
 	)
 	(junction
-		(at 105.41 104.14)
+		(at 114.3 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef6726ef-78bb-459a-ae72-88aca7bf5215")
 	)
 	(junction
-		(at 133.35 128.27)
+		(at 142.24 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b36cb3-9dbe-4e3a-a7d7-bf0b3e832500")
 	)
 	(wire
 		(pts
-			(xy 105.41 99.06) (xy 105.41 97.79)
+			(xy 114.3 92.71) (xy 114.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 133.35 115.57)
+			(xy 142.24 111.76) (xy 142.24 109.22)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 115.57) (xy 105.41 125.73)
+			(xy 114.3 109.22) (xy 114.3 119.38)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 137.16 99.06)
+			(xy 142.24 92.71) (xy 146.05 92.71)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 133.35 104.14)
+			(xy 142.24 92.71) (xy 142.24 97.79)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 120.65 128.27)
+			(xy 129.54 119.38) (xy 129.54 121.92)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 105.41 132.08)
+			(xy 114.3 121.92) (xy 114.3 125.73)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 104.14) (xy 105.41 104.14)
+			(xy 107.95 97.79) (xy 114.3 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 128.27) (xy 105.41 128.27)
+			(xy 107.95 121.92) (xy 114.3 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 125.73) (xy 105.41 125.73)
+			(xy 107.95 119.38) (xy 114.3 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 133.35 128.27)
+			(xy 142.24 119.38) (xy 142.24 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 128.27) (xy 154.94 104.14)
+			(xy 163.83 121.92) (xy 163.83 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 125.73) (xy 99.06 125.73)
+			(xy 106.68 119.38) (xy 107.95 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 99.06) (xy 133.35 99.06)
+			(xy 114.3 92.71) (xy 142.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 104.14) (xy 105.41 102.87)
+			(xy 114.3 97.79) (xy 114.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 128.27) (xy 133.35 128.27)
+			(xy 129.54 121.92) (xy 142.24 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 104.14) (xy 105.41 104.14)
+			(xy 129.54 97.79) (xy 114.3 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 120.65 128.27)
+			(xy 114.3 121.92) (xy 129.54 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 99.06) (xy 105.41 99.06)
+			(xy 107.95 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 120.65 115.57)
+			(xy 125.73 109.22) (xy 129.54 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 115.57) (xy 120.65 118.11)
+			(xy 129.54 109.22) (xy 129.54 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1133,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 128.27) (xy 99.06 128.27)
+			(xy 106.68 121.92) (xy 107.95 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 115.57) (xy 109.22 115.57)
+			(xy 114.3 109.22) (xy 118.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 111.76) (xy 133.35 115.57)
+			(xy 142.24 105.41) (xy 142.24 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 115.57) (xy 120.65 104.14)
+			(xy 129.54 109.22) (xy 129.54 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 128.27) (xy 154.94 128.27)
+			(xy 142.24 121.92) (xy 163.83 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1213,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 120.65 115.57)
+			(xy 142.24 109.22) (xy 129.54 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 149.86 99.06)
+			(xy 153.67 92.71) (xy 158.75 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1232,7 @@
 		(uuid "ff06cc17-818a-42fc-8406-090049a60112")
 	)
 	(label "XT2"
-		(at 105.41 102.87 0)
+		(at 114.3 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1212,7 +1242,7 @@
 		(uuid "178807c3-2e80-459e-b4cc-f65d004fc9e8")
 	)
 	(label "XT1"
-		(at 105.41 97.79 0)
+		(at 114.3 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1222,7 +1252,7 @@
 		(uuid "688814d6-2b30-49ad-92ea-e36178c7b4d2")
 	)
 	(label "V_{cc}_3V3"
-		(at 105.41 125.73 0)
+		(at 114.3 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1233,7 +1263,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 99.06 125.73 0)
+		(at 107.95 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1243,8 +1273,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031d8245-9c0c-4c2d-a36d-d79177696792")
-		(property "Reference" "#FLG01"
-			(at 99.06 123.825 0)
+		(property "Reference" "#FLG04"
+			(at 107.95 117.475 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1255,7 +1285,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 99.06 120.65 0)
+			(at 107.95 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1265,7 +1295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 125.73 0)
+			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1276,7 +1306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 125.73 0)
+			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1287,7 +1317,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 125.73 0)
+			(at 107.95 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1300,9 +1330,9 @@
 			(uuid "2757b8c0-4046-4bea-ad41-8a578e43507f")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "#FLG01")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -1310,7 +1340,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 121.92 0)
+		(at 129.54 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1320,8 +1350,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a71337d-f3d3-499d-8405-af57439008c1")
-		(property "Reference" "R2"
-			(at 123.19 120.65 0)
+		(property "Reference" "R3"
+			(at 132.08 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1332,7 +1362,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 123.19 123.19 0)
+			(at 132.08 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1343,7 +1373,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 118.872 121.92 90)
+			(at 127.762 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1354,7 +1384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 121.92 0)
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1365,7 +1395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 121.92 0)
+			(at 129.54 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1381,9 +1411,9 @@
 			(uuid "6b0043b3-b134-417c-9426-2704d395ee12")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "R2")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1391,7 +1421,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 93.98 104.14 0)
+		(at 102.87 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1400,8 +1430,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "392b0945-b63d-4c8b-9fb0-21a0e323e0b9")
-		(property "Reference" "J3"
-			(at 91.44 104.14 0)
+		(property "Reference" "J8"
+			(at 100.33 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1411,7 +1441,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 81.28 104.14 0)
+			(at 90.17 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1421,7 +1451,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 93.98 104.14 0)
+			(at 102.87 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1432,7 +1462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 104.14 0)
+			(at 102.87 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 104.14 0)
+			(at 102.87 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1456,9 +1486,9 @@
 			(uuid "c5165c5e-5aaa-427e-9119-d16dab893c2c")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "J3")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1466,7 +1496,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 92.71 125.73 0)
+		(at 101.6 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1475,8 +1505,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4277e608-7398-4b5b-84f4-077de90fe5cc")
-		(property "Reference" "J4"
-			(at 90.17 124.46 0)
+		(property "Reference" "J5"
+			(at 99.06 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1486,7 +1516,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 80.01 124.46 0)
+			(at 88.9 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1496,7 +1526,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.71 125.73 0)
+			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1507,7 +1537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 125.73 0)
+			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1518,7 +1548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 125.73 0)
+			(at 101.6 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1531,9 +1561,9 @@
 			(uuid "3c39e573-25aa-4e6c-83f8-067b5d5503c0")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "J4")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1541,7 +1571,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 99.06 128.27 180)
+		(at 107.95 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1551,8 +1581,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c2ebcf-a0b8-4ec8-9edf-341cba54d4cc")
-		(property "Reference" "#FLG02"
-			(at 99.06 130.175 0)
+		(property "Reference" "#FLG05"
+			(at 107.95 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,7 +1593,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 99.06 133.35 0)
+			(at 107.95 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1573,7 +1603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 128.27 0)
+			(at 107.95 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,7 +1614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 128.27 0)
+			(at 107.95 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1595,7 +1625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 128.27 0)
+			(at 107.95 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1608,9 +1638,9 @@
 			(uuid "1d26be0b-ce2a-4559-95de-94a0b321cd42")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "#FLG02")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1648,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 154.94 99.06 0)
+		(at 163.83 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1628,8 +1658,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2c7f13-a8c7-4ac2-a4e0-9fa8bc15c294")
-		(property "Reference" "J1"
-			(at 158.75 98.0832 0)
+		(property "Reference" "J9"
+			(at 167.64 91.7332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1640,7 +1670,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 158.75 100.6232 0)
+			(at 167.64 94.2732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1651,7 +1681,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
-			(at 154.94 99.06 0)
+			(at 163.83 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1662,7 +1692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 99.06 0)
+			(at 163.83 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1673,7 +1703,7 @@
 			)
 		)
 		(property "Description" "Clock input"
-			(at 154.94 99.06 0)
+			(at 163.83 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1689,9 +1719,9 @@
 			(uuid "d902d706-7ea0-4f7b-8d0b-7da8390046ff")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "J1")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1699,7 +1729,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 93.98 99.06 0)
+		(at 102.87 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1708,8 +1738,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1910f2b-f9c4-415b-b33c-c97ee34c5308")
-		(property "Reference" "J2"
-			(at 91.44 97.79 0)
+		(property "Reference" "J7"
+			(at 100.33 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1719,7 +1749,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 81.28 97.79 0)
+			(at 90.17 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1729,7 +1759,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 93.98 99.06 0)
+			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1740,7 +1770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 99.06 0)
+			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1751,7 +1781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 99.06 0)
+			(at 102.87 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1764,9 +1794,9 @@
 			(uuid "c934974a-a26e-400b-8b44-67c4d78c6c2f")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "J2")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1774,7 +1804,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 115.57 90)
+		(at 121.92 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1783,8 +1813,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be650c85-f4ed-495c-aaa9-3d6334e9f444")
-		(property "Reference" "R1"
-			(at 113.03 110.49 90)
+		(property "Reference" "R2"
+			(at 121.92 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1794,7 +1824,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 113.03 113.03 90)
+			(at 121.92 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1804,7 +1834,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 113.03 117.348 90)
+			(at 121.92 110.998 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +1845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 115.57 0)
+			(at 121.92 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1826,7 +1856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 115.57 0)
+			(at 121.92 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1842,9 +1872,9 @@
 			(uuid "830e2eeb-54b2-4dbd-b633-8ef46145f523")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "R1")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1852,7 +1882,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 107.95 0)
+		(at 142.24 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1862,8 +1892,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbbf6a5c-e02e-43e5-8325-ec934903d692")
-		(property "Reference" "R3"
-			(at 135.89 106.68 0)
+		(property "Reference" "R4"
+			(at 144.78 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1874,7 +1904,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 135.89 109.22 0)
+			(at 144.78 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1885,7 +1915,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 131.572 107.95 90)
+			(at 140.462 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1896,7 +1926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 107.95 0)
+			(at 142.24 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1907,7 +1937,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 107.95 0)
+			(at 142.24 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1923,9 +1953,9 @@
 			(uuid "7c479c4f-5262-40ad-82d8-c000525b5654")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "R3")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1933,7 +1963,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 92.71 128.27 0)
+		(at 101.6 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1942,8 +1972,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccafef40-b14a-4d36-9139-d6ef95efceed")
-		(property "Reference" "J5"
-			(at 90.17 128.27 0)
+		(property "Reference" "J6"
+			(at 99.06 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1953,7 +1983,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 80.01 128.27 0)
+			(at 88.9 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1963,7 +1993,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.71 128.27 0)
+			(at 101.6 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +2004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 128.27 0)
+			(at 101.6 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1985,7 +2015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 128.27 0)
+			(at 101.6 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1998,9 +2028,9 @@
 			(uuid "2f6a7388-954b-404e-a9a4-4090d0504ab2")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "J5")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2008,7 +2038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 132.08 0)
+		(at 114.3 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2018,8 +2048,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0e9e4f8-160d-41e9-9e8a-868efb55e59e")
-		(property "Reference" "#PWR01"
-			(at 105.41 138.43 0)
+		(property "Reference" "#PWR011"
+			(at 114.3 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,7 +2060,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 137.16 0)
+			(at 114.3 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2040,7 +2070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 132.08 0)
+			(at 114.3 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2051,7 +2081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 132.08 0)
+			(at 114.3 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2062,7 +2092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 132.08 0)
+			(at 114.3 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2075,9 +2105,9 @@
 			(uuid "e76f53c5-7222-4c18-bde5-491ae0986bfc")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "#PWR01")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2085,7 +2115,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 121.92 0)
+		(at 142.24 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2096,7 +2126,7 @@
 		(fields_autoplaced yes)
 		(uuid "e832071a-dba2-474e-8bf4-c77d1c5885a9")
 		(property "Reference" "C2"
-			(at 137.16 120.65 0)
+			(at 146.05 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2107,7 +2137,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 137.16 123.19 0)
+			(at 146.05 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2118,7 +2148,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 134.3152 125.73 0)
+			(at 143.2052 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2129,7 +2159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 121.92 0)
+			(at 142.24 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2140,7 +2170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 121.92 0)
+			(at 142.24 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2156,8 +2186,8 @@
 			(uuid "7dab8b08-a24f-4215-b4bc-ebdac0fcb3e3")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
 					(reference "C2")
 					(unit 1)
 				)
@@ -2166,7 +2196,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 140.97 99.06 270)
+		(at 149.86 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2176,8 +2206,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f14e818c-4856-473a-aec3-05bcd74cb77e")
-		(property "Reference" "C1"
-			(at 140.97 91.44 90)
+		(property "Reference" "C3"
+			(at 149.86 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2187,7 +2217,7 @@
 			)
 		)
 		(property "Value" "1n5"
-			(at 140.97 93.98 90)
+			(at 149.86 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2197,7 +2227,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 137.16 100.0252 0)
+			(at 146.05 93.6752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2208,7 +2238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 99.06 0)
+			(at 149.86 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +2249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 99.06 0)
+			(at 149.86 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2235,18 +2265,45 @@
 			(uuid "a0330568-4d95-4998-9657-6be80b849fa6")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
-				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
-					(reference "C1")
+			(project "cxadc-clockgen"
+				(path "/2a3a637b-b94b-4be9-87ef-a5e732197656/f929e4f4-c4e5-446b-9077-e2d2715e20d6"
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+	(group "CXADC Clockgen Jig"
+		(uuid "6cfe80fd-d0e1-4c98-84db-1fbbdea5b8d9")
+		(lib_id "GDH_design_blocks:CXADC Clockgen Jig")
+		(members "008a2302-379d-458c-a9b6-f628d75de374" "00c77b86-ec25-43b6-83c3-69acffc99e79"
+			"031d8245-9c0c-4c2d-a36d-d79177696792" "178807c3-2e80-459e-b4cc-f65d004fc9e8"
+			"1a71337d-f3d3-499d-8405-af57439008c1" "1b13ff34-0abb-4bf9-9022-be2d1bc5b495"
+			"229d5ec3-019a-4cf3-bb71-0e80ba7ad610" "392b0945-b63d-4c8b-9fb0-21a0e323e0b9"
+			"4277e608-7398-4b5b-84f4-077de90fe5cc" "42955d74-8531-424c-bb92-2ffd5fc7a867"
+			"4ec48d58-d35e-4f15-abe2-43f6bbb98663" "4ec72ce8-9f3e-4fe3-aa38-cf70cd40f359"
+			"5bd0bf30-b38e-4810-9132-53099524a932" "62c2ebcf-a0b8-4ec8-9edf-341cba54d4cc"
+			"660eb035-db62-4a01-af65-c6e21302c20e" "662922f5-bbb4-4e1d-82fa-ae99402ae7f1"
+			"688814d6-2b30-49ad-92ea-e36178c7b4d2" "6b46155b-0659-4ee0-b8a0-851a79efccdb"
+			"6c8e68ec-9197-41d6-9659-0637b753e080" "77c79f05-5804-436b-b887-1efe14ce883e"
+			"78f92207-c983-450c-b109-e6530ddf4be7" "7ac9584e-2359-4676-86fc-4f0e2c9688f0"
+			"7ddb8e04-0993-4486-8f34-3fd27d936fea" "7dfc20e4-862d-44cb-bd94-00c4dfdbabf8"
+			"809d93eb-9650-4477-9af1-44966912ab0f" "81af3818-11cd-4925-816e-56a15e634b7b"
+			"8683ba20-137b-421f-9b5e-4b6a99847cfd" "8c1e2c3e-3201-48eb-a836-43f6611f7575"
+			"8d2c7f13-a8c7-4ac2-a4e0-9fa8bc15c294" "928f2078-da2c-48d1-9e66-eeff1362e08f"
+			"9f2bc415-3046-4322-b13e-a3f831ad56e5" "a6d75a90-264d-4441-a797-ae67aefd8fbb"
+			"a77169a4-f31d-481a-b698-5e1443edca2c" "af2ae42b-8f75-434e-884c-1460e2b28fce"
+			"b1910f2b-f9c4-415b-b33c-c97ee34c5308" "b7499a0b-e41a-42b3-983d-923d959a64da"
+			"bc936349-a311-4448-b37e-7fcf3a0aef36" "be5dfdc9-64b9-43e4-8d59-50d724640f72"
+			"be650c85-f4ed-495c-aaa9-3d6334e9f444" "c91ee374-0a4f-4ba6-8933-7d56440eb6a2"
+			"ca510554-02d3-49ff-a42f-a7bcdc25f00a" "cbbf6a5c-e02e-43e5-8325-ec934903d692"
+			"ccafef40-b14a-4d36-9139-d6ef95efceed" "d0e9e4f8-160d-41e9-9e8a-868efb55e59e"
+			"d232ab0f-4df0-4d1e-b420-da6cf00cdb9c" "e08c1f75-0a20-4ae9-902f-887a8a8dba51"
+			"e832071a-dba2-474e-8bf4-c77d1c5885a9" "ec15bc11-a80e-4f52-8fd4-07dc8fc37f4c"
+			"ed809733-3fa4-4d86-b375-ba7f4182ffa0" "ee99d1cb-bd1d-4cda-b4c9-046aa5b96d2c"
+			"ef6726ef-78bb-459a-ae72-88aca7bf5215" "f14e818c-4856-473a-aec3-05bcd74cb77e"
+			"f8b36cb3-9dbe-4e3a-a7d7-bf0b3e832500" "fa92deff-fdaa-414e-bf12-7e957ecd4314"
+			"ff06cc17-818a-42fc-8406-090049a60112" "ffae98b4-b14b-4183-8b27-5140ed99adf0"
 		)
 	)
-	(embedded_fonts no)
 )

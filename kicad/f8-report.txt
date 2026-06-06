@@ -1,0 +1,68 @@
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'J5:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J6:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J7:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J8:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J9:Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount'.
+Info: Processing symbol 'J10:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J11:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J12:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J13:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J14:Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'U1:GDH Modules:Pi_Pico_SMD_TH'.
+Info: Processing symbol 'U2:GDH Modules:black-pcm1802-board'.
+Info: Processing symbol 'U3:GDH Modules:Adafruit_Si5351A_Breakout_Board'.
+Info: Processing symbol 'J1:GDH Connectors:GRADCONN_RFPC-SMA28-F'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'H2:MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad'.
+Info: Processing symbol 'H1:MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad'.
+Info: Processing symbol 'H3:MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad'.
+Info: Processing symbol 'D2:Diode_SMD:D_SOD-123'.
+Info: Processing symbol 'H4:MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad'.
+Info: Processing symbol 'J4:GDH Connectors:GRADCONN_RFPC-SMA28-F'.
+Info: Processing symbol 'D1:Diode_SMD:D_SOD-123'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'J2:GDH Connectors:Molex_0731000154_BNC_RA_THT'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'J3:GDH Connectors:GRADCONN_RFPC-SMA28-F'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Add R2 to group 'hifi-cx-jig'.
+Remove R3 from group 'video-cx-jig'.
+Add C4 (footprint 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder').
+Add R3 to group 'hifi-cx-jig'.
+Add J13 (footprint 'TestPoint:TestPoint_Pad_D2.0mm').
+Remove R4 from group 'video-cx-jig'.
+Add R4 to group 'hifi-cx-jig'.
+Add C3 to group 'hifi-cx-jig'.
+Add R5 (footprint 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder').
+Remove C3 from group 'video-cx-jig'.
+Add R6 (footprint 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder').
+Add R7 (footprint 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder').
+Add C2 to group 'hifi-cx-jig'.
+Remove C2 from group 'video-cx-jig'.
+Remove R2 from group 'video-cx-jig'.
+Add C5 (footprint 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder').
+Add J14 (footprint 'Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount').
+Add J12 (footprint 'TestPoint:TestPoint_Pad_D2.0mm').
+Add J11 (footprint 'TestPoint:TestPoint_Pad_D2.0mm').
+Add J10 (footprint 'TestPoint:TestPoint_Pad_D2.0mm').
+Add J9 to group 'hifi-cx-jig'.
+Remove J9 from group 'video-cx-jig'.
+Add J8 to group 'hifi-cx-jig'.
+Remove J8 from group 'video-cx-jig'.
+Add J7 to group 'hifi-cx-jig'.
+Remove J7 from group 'video-cx-jig'.
+Add J6 to group 'hifi-cx-jig'.
+Remove J6 from group 'video-cx-jig'.
+Add J5 to group 'hifi-cx-jig'.
+Remove J5 from group 'video-cx-jig'.
+
+
+Info: Total warnings: 0, errors: 0.
