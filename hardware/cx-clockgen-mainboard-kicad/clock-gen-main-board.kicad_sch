@@ -12,343 +12,6 @@
 		(comment 1 "${proj-license}")
 	)
 	(lib_symbols
-		(symbol "GDH Connectors:RFPC-SMA28-F"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -3.81 4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "RFPC-SMA28-F"
-				(at -3.81 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTREV" "1.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "9.8mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "GradConn"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "RFPC-SMA28-F_0_0"
-				(arc
-					(start -3.175 0.635)
-					(mid -2.726 0.449)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -2.726 -0.449)
-					(end -3.175 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -4.318) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 10.16 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.318) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -4.318) (xy -0.762 -4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -4.318) (xy 0.254 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -1184,22 +847,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_1"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "GDH Connectors:RFPC-SMA28-F"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+			(property "Reference" "J"
+				(at -3.81 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RFPC-SMA28-F"
+				(at -3.81 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1207,19 +887,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6130/RFPC-SMA28-F.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1230,7 +901,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Description" "SMA vertical PCB jack"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1241,7 +912,55 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.8mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "GradConn"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "GCT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1252,7 +971,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "MPN" "RFPC-SMA28-F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1263,35 +982,223 @@
 					)
 				)
 			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
+			(symbol "RFPC-SMA28-F_0_0"
+				(arc
+					(start -3.175 0.635)
+					(mid -2.726 0.449)
+					(end -2.54 0)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
+				(arc
+					(start -2.54 0)
+					(mid -2.726 -0.449)
+					(end -3.175 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -4.318) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 10.16 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.318) (xy -0.762 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.318) (xy 0.254 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1299,22 +1206,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_2"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "GDH Modules:Adafruit_Si5351A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+			(property "Reference" "U"
+				(at 0 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "GDH Modules:Adafruit_Si5351A_Breakout_Board"
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1324,17 +1243,18 @@
 					)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Datasheet" "https://www.adafruit.com/product/2045"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Description" "Adafruit Si5351A clock-gen breakout (8 kHz-160 MHz)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1345,7 +1265,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Manufacturer" "Adafruit Industries"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1356,7 +1276,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "MPN" "2045"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1367,36 +1287,48 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
+			(symbol "Adafruit_Si5351A_1_1"
+				(rectangle
+					(start -6.35 13.97)
+					(end 6.35 -13.97)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "GND_2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
+				(text "Adafruit Si5351A\nClock Gen Breakout Board\n8KHz to 160MHz"
+					(at 2.54 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 10.16 0)
+					(length 2.54)
+					(name "CLK0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name "CLK1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1404,6 +1336,96 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "CLK2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1440,7 +1462,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+			(property "Footprint" "GDH Modules:RPi_Pico_SMD_TH"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1451,7 +1473,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1462,7 +1484,29 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Raspberry Pi Pico module (RP2040)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Raspberry Pi"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "Raspberry Pi Pico"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2274,337 +2318,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GDH Modules:Adafruit_Si5351A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U2"
-				(at 7.62 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ""
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "GDH Modules:Adafruit_Si5351A_Breakout_Board"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.adafruit.com/product/2045"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Adafruit_Si5351A_1_1"
-				(rectangle
-					(start -6.35 13.97)
-					(end 6.35 -13.97)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "Adafruit Si5351A\nClock Gen Breakout Board\n8KHz to 160MHz"
-					(at 2.54 0 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 10.16 0)
-					(length 2.54)
-					(name "CLK0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 7.62 0)
-					(length 2.54)
-					(name "CLK1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 5.08 0)
-					(length 2.54)
-					(name "CLK2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -10.16 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GDH Modules:black-pcm1802-board"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2653,7 +2366,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "PCM1802 stereo ADC breakout (black board)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2849,10 +2562,855 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RFPC-SMA28-F_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -3.81 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RFPC-SMA28-F"
+				(at -3.81 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6130/RFPC-SMA28-F.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMA vertical PCB jack"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.8mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "GradConn"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "GCT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RFPC-SMA28-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RFPC-SMA28-F_1_0_0"
+				(arc
+					(start -3.175 0.635)
+					(mid -2.726 0.449)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -2.726 -0.449)
+					(end -3.175 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -4.318) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 10.16 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.318) (xy -0.762 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.318) (xy 0.254 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RFPC-SMA28-F_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -3.81 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RFPC-SMA28-F"
+				(at -3.81 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6130/RFPC-SMA28-F.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMA vertical PCB jack"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.8mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "GradConn"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "GCT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RFPC-SMA28-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RFPC-SMA28-F_2_0_0"
+				(arc
+					(start -3.175 0.635)
+					(mid -2.726 0.449)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -2.726 -0.449)
+					(end -3.175 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -4.318) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 10.16 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.318) (xy -0.762 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.318) (xy 0.254 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2942,8 +3500,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3044,7 +3601,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3132,6 +3689,12 @@
 		(uuid "3895a350-cff7-4239-a28f-1110b86a69b9")
 	)
 	(junction
+		(at 25.4 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48e0b411-af50-4879-b93d-93cbdb6fd822")
+	)
+	(junction
 		(at 187.96 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3150,12 +3713,6 @@
 		(uuid "526cb5e4-b59d-4c41-828d-4ee3a13fafe7")
 	)
 	(junction
-		(at 26.67 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "541d76f1-5061-4caf-bd21-4adf1399700f")
-	)
-	(junction
 		(at 203.2 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3166,12 +3723,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58e33333-6ffe-4f81-8f2d-78480f103a07")
-	)
-	(junction
-		(at 24.13 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ffb876a-716b-4b40-998c-7be84280e94e")
 	)
 	(junction
 		(at 120.65 41.91)
@@ -3192,16 +3743,28 @@
 		(uuid "77fc96f1-891c-4f2e-9ca5-e1653795b35e")
 	)
 	(junction
-		(at 25.4 163.83)
+		(at 24.13 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ef87129-9ba5-4e82-aa0c-e168e9aa880d")
+		(uuid "7ecd42e2-cac4-4bc1-a185-daac934f4379")
+	)
+	(junction
+		(at 26.67 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bc3d4e1-48db-4dd8-b1af-77573c787eca")
 	)
 	(junction
 		(at 203.2 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fb79b3d-6611-428f-b7f5-c2e2527ece0f")
+	)
+	(junction
+		(at 29.21 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90bcb1bc-d85f-4de5-98c7-3b04d30429b9")
 	)
 	(junction
 		(at 130.81 152.4)
@@ -3232,12 +3795,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1617ca0-1476-43e8-99ab-879d72ad5b2d")
-	)
-	(junction
-		(at 25.4 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1850a49-60d0-47f5-b9d9-45de64250b71")
 	)
 	(junction
 		(at 48.26 152.4)
@@ -3558,16 +4115,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 157.48) (xy 21.59 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d8ee990-cf9e-4b0c-bbc3-b16261e3987e")
-	)
-	(wire
-		(pts
 			(xy 194.31 87.63) (xy 215.9 87.63)
 		)
 		(stroke
@@ -3649,16 +4196,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 158.75) (xy 25.4 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e907f8a-ae48-4d0c-9d56-bcd0c8d378c1")
-	)
-	(wire
-		(pts
 			(xy 203.2 74.93) (xy 203.2 77.47)
 		)
 		(stroke
@@ -3676,6 +4213,16 @@
 			(type default)
 		)
 		(uuid "24d5aa54-1f19-4a83-aae1-02467fb97fef")
+	)
+	(wire
+		(pts
+			(xy 26.67 157.48) (xy 26.67 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c74782-aeaa-40d6-b544-119ffc4a0f41")
 	)
 	(wire
 		(pts
@@ -3802,16 +4349,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 157.48) (xy 24.13 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4189e2af-4b93-47a0-afa7-24f53015fd9c")
-	)
-	(wire
-		(pts
 			(xy 203.2 74.93) (xy 205.74 74.93)
 		)
 		(stroke
@@ -3842,16 +4379,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 157.48) (xy 26.67 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb8a10b-aefd-432f-9195-a3ba8c1e5eab")
-	)
-	(wire
-		(pts
 			(xy 82.55 110.49) (xy 82.55 121.92)
 		)
 		(stroke
@@ -3879,6 +4406,16 @@
 			(type default)
 		)
 		(uuid "5199acb0-ed90-4283-9444-b728b05e0a35")
+	)
+	(wire
+		(pts
+			(xy 29.21 157.48) (xy 29.21 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b973a9-9216-4b0c-8fa9-5629d9fc3151")
 	)
 	(wire
 		(pts
@@ -3922,13 +4459,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 163.83) (xy 43.18 163.83)
+			(xy 25.4 163.83) (xy 26.67 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f628403-3748-4942-95c9-f9efe000a091")
+	)
+	(wire
+		(pts
+			(xy 29.21 163.83) (xy 43.18 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a7e0e4-f846-42bb-8f28-18c39ca58dba")
 	)
 	(wire
 		(pts
@@ -4244,6 +4791,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 163.83) (xy 25.4 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989e4b1c-1de6-4f34-a5b5-60fdeae1a97e")
+	)
+	(wire
+		(pts
 			(xy 77.47 171.45) (xy 77.47 173.99)
 		)
 		(stroke
@@ -4318,16 +4875,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 157.48) (xy 29.21 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2dbafbf-c5f0-47fd-ae8c-e342431da0f0")
-	)
-	(wire
-		(pts
 			(xy 187.96 67.31) (xy 187.96 69.85)
 		)
 		(stroke
@@ -4378,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 157.48) (xy 21.59 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18f97e7-0bfb-4c8e-a7aa-a7bca3d61d2e")
+	)
+	(wire
+		(pts
 			(xy 187.96 74.93) (xy 187.96 78.74)
 		)
 		(stroke
@@ -4396,6 +4953,16 @@
 			(color 255 0 255 1)
 		)
 		(uuid "b23b932a-6219-4546-a444-5c5603012876")
+	)
+	(wire
+		(pts
+			(xy 21.59 163.83) (xy 24.13 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65cf7ad-f4d3-4d47-88b7-3ba2cba398c1")
 	)
 	(bus
 		(pts
@@ -4481,6 +5048,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 163.83) (xy 29.21 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01b4c14-3ab4-472b-8dff-78a7a67bc84f")
+	)
+	(wire
+		(pts
 			(xy 187.96 72.39) (xy 190.5 72.39)
 		)
 		(stroke
@@ -4509,16 +5086,6 @@
 		)
 		(uuid "d594172d-1082-4aee-ba4c-ecf8d0eb264f")
 	)
-	(wire
-		(pts
-			(xy 26.67 158.75) (xy 29.21 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5ed5537-9608-4e18-9a37-1c01c032e206")
-	)
 	(bus
 		(pts
 			(xy 105.41 80.01) (xy 105.41 133.35)
@@ -4541,6 +5108,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 157.48) (xy 24.13 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e9074d-1079-4c06-a73b-858be338f9b1")
+	)
+	(wire
+		(pts
 			(xy 203.2 72.39) (xy 205.74 72.39)
 		)
 		(stroke
@@ -4558,16 +5135,6 @@
 			(type default)
 		)
 		(uuid "e7d3b358-08db-4e7c-b04a-2d70a3de197b")
-	)
-	(wire
-		(pts
-			(xy 25.4 158.75) (xy 26.67 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb0ee7c0-0527-43c0-85fe-1ad810b35120")
 	)
 	(wire
 		(pts
@@ -4608,26 +5175,6 @@
 			(type default)
 		)
 		(uuid "f28dac92-8fc8-4fc3-ba27-8a126dcfacd9")
-	)
-	(wire
-		(pts
-			(xy 21.59 158.75) (xy 24.13 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3e3c5a8-fdf4-44ae-80ae-49d270c30e67")
-	)
-	(wire
-		(pts
-			(xy 24.13 158.75) (xy 25.4 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f485f460-cc9e-4a7c-b8e8-ebd985449393")
 	)
 	(wire
 		(pts
@@ -4923,8 +5470,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 140.97 180.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5000,8 +5548,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5023,7 +5572,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 187.96 78.74 0)
 		(unit 1)
@@ -5155,8 +5703,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PCM1802 stereo ADC breakout (black board)"
 			(at 154.94 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5256,8 +5805,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5279,6 +5829,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RFPC-SMA28-F_1")
 		(lib_id "GDH Connectors:RFPC-SMA28-F")
 		(at 195.58 64.77 270)
 		(unit 1)
@@ -5321,7 +5872,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6130/RFPC-SMA28-F.pdf"
 			(at 195.58 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5332,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMA vertical PCB jack"
 			(at 195.58 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5391,19 +5942,41 @@
 				(justify bottom)
 			)
 		)
+		(property "Manufacturer" "GCT"
+			(at 195.58 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RFPC-SMA28-F"
+			(at 195.58 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4aab0d3-24a8-4c5b-b3c5-5833291e1c42")
 		)
-		(pin "G3"
+		(pin "2"
 			(uuid "b4a4502b-f6d3-4a86-9cb7-29de86a84bf0")
 		)
-		(pin "G1"
+		(pin "2"
 			(uuid "821f4ad6-7c9c-426f-897e-140e22ee206a")
 		)
-		(pin "G4"
+		(pin "2"
 			(uuid "2dd2913c-69ca-4639-87ec-e7e521613859")
 		)
-		(pin "G2"
+		(pin "2"
 			(uuid "67897678-f421-45ad-8f65-469d36d4e43e")
 		)
 		(instances
@@ -5471,8 +6044,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 77.47 157.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5551,8 +6125,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 41.91 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5627,8 +6202,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 87.63 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5703,8 +6279,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 87.63 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5780,8 +6357,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5857,8 +6435,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 62.23 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5880,7 +6459,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 203.2 77.47 0)
 		(unit 1)
@@ -6013,8 +6591,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Adafruit Si5351A clock-gen breakout (8 kHz-160 MHz)"
 			(at 224.79 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries"
+			(at 224.79 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2045"
+			(at 224.79 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6098,7 +6699,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6130/RFPC-SMA28-F.pdf"
 			(at 19.05 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6109,7 +6710,7 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "SMA vertical PCB jack"
 			(at 19.05 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6168,19 +6769,41 @@
 				(justify bottom)
 			)
 		)
+		(property "Manufacturer" "GCT"
+			(at 19.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RFPC-SMA28-F"
+			(at 19.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64b849a9-4c64-4a76-81df-b00f69174f0a")
 		)
-		(pin "G1"
+		(pin "2"
 			(uuid "72032fc3-390c-41af-b4e7-4b874950996c")
 		)
-		(pin "G3"
+		(pin "2"
 			(uuid "7685ba6c-951b-4d8c-a949-3833ec0852ec")
 		)
-		(pin "G4"
+		(pin "2"
 			(uuid "e07c69bf-d2bc-47e3-9590-0a73a948e62a")
 		)
-		(pin "G2"
+		(pin "2"
 			(uuid "328449d8-e1f2-48ba-825e-b06125ccf27e")
 		)
 		(instances
@@ -6247,8 +6870,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 120.65 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6324,8 +6948,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 41.91 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6401,8 +7026,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6478,8 +7104,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 133.35 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6555,8 +7182,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 127 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6630,8 +7258,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 60.96 152.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6709,8 +7338,9 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
+		(property "Footprint" "GDH Modules:Pi_Pico_SMD_TH"
 			(at 62.23 91.44 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6719,7 +7349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
 			(at 62.23 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6730,8 +7360,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Raspberry Pi Pico module (RP2040)"
 			(at 62.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 62.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Raspberry Pi Pico"
+			(at 62.23 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6932,8 +7585,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7012,8 +7666,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 114.3 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7116,6 +7771,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RFPC-SMA28-F_2")
 		(lib_id "GDH Connectors:RFPC-SMA28-F")
 		(at 210.82 64.77 270)
 		(unit 1)
@@ -7161,7 +7817,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6130/RFPC-SMA28-F.pdf"
 			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7172,7 +7828,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMA vertical PCB jack"
 			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7231,19 +7887,41 @@
 				(justify bottom)
 			)
 		)
+		(property "Manufacturer" "GCT"
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RFPC-SMA28-F"
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e71e9e95-9ece-444b-8425-d926fd068a1c")
 		)
-		(pin "G1"
+		(pin "2"
 			(uuid "09b67f4f-8b28-4381-9158-7c7287bae3a0")
 		)
-		(pin "G4"
+		(pin "2"
 			(uuid "c5508fa2-7c79-4aaa-8c43-183b684a5d96")
 		)
-		(pin "G2"
+		(pin "2"
 			(uuid "5078489e-e51a-4b08-b211-75cc8283fd83")
 		)
-		(pin "G3"
+		(pin "2"
 			(uuid "f75bc54e-61ed-4937-8348-091a0277bb94")
 		)
 		(instances
@@ -7311,8 +7989,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode"
 			(at 77.47 167.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7391,8 +8070,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 213.36 107.95 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
