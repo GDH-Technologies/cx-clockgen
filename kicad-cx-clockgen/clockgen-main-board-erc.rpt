@@ -1,0 +1,128 @@
+ERC report (2026-06-06T20:54:12, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(73.66 mm, 161.29 mm): Horizontal Wire, length 13.97 mm
+    @(66.04 mm, 161.29 mm): Horizontal Wire, length 7.62 mm
+[label_dangling]: Label not connected
+    ; error
+    @(73.66 mm, 167.64 mm): Label 'CLK1_GND'
+[hier_label_mismatch]: Sheet pin XT1 has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 35.00 mm): Hierarchical Sheet Pin 'XT1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 35.00 mm): Hierarchical Sheet Pin 'XT1'
+[hier_label_mismatch]: Sheet pin XT2 has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 38.00 mm): Hierarchical Sheet Pin 'XT2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 38.00 mm): Hierarchical Sheet Pin 'XT2'
+[hier_label_mismatch]: Sheet pin V_cc_3V3 has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 41.00 mm): Hierarchical Sheet Pin 'V_cc_3V3'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 41.00 mm): Hierarchical Sheet Pin 'V_cc_3V3'
+[hier_label_mismatch]: Sheet pin CLK0_GND has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 44.00 mm): Hierarchical Sheet Pin 'CLK0_GND'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 44.00 mm): Hierarchical Sheet Pin 'CLK0_GND'
+[hier_label_mismatch]: Sheet pin CLK1_GND has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 47.00 mm): Hierarchical Sheet Pin 'CLK1_GND'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 47.00 mm): Hierarchical Sheet Pin 'CLK1_GND'
+[hier_label_mismatch]: Sheet pin XT1 has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 95.00 mm): Hierarchical Sheet Pin 'XT1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 95.00 mm): Hierarchical Sheet Pin 'XT1'
+[hier_label_mismatch]: Sheet pin XT2 has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 98.00 mm): Hierarchical Sheet Pin 'XT2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 98.00 mm): Hierarchical Sheet Pin 'XT2'
+[hier_label_mismatch]: Sheet pin V_cc_3V3 has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 101.00 mm): Hierarchical Sheet Pin 'V_cc_3V3'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 101.00 mm): Hierarchical Sheet Pin 'V_cc_3V3'
+[hier_label_mismatch]: Sheet pin CLK0_GND has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 104.00 mm): Hierarchical Sheet Pin 'CLK0_GND'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 104.00 mm): Hierarchical Sheet Pin 'CLK0_GND'
+[hier_label_mismatch]: Sheet pin CLK1_GND has no matching hierarchical label inside the sheet
+    ; error
+    @(140.00 mm, 107.00 mm): Hierarchical Sheet Pin 'CLK1_GND'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.00 mm, 107.00 mm): Hierarchical Sheet Pin 'CLK1_GND'
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(77.47 mm, 152.40 mm): Vertical Wire, length 1.27 mm
+    @(64.77 mm, 152.40 mm): Horizontal Wire, length 12.70 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(80.01 mm, 115.57 mm): Horizontal Wire, length 10.16 mm
+    @(77.47 mm, 162.56 mm): Vertical Wire, length 1.27 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(195.58 mm, 85.09 mm): Horizontal Wire, length 20.32 mm
+    @(195.58 mm, 85.09 mm): Vertical Wire, length 17.78 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(210.82 mm, 82.55 mm): Vertical Wire, length 15.24 mm
+    @(215.90 mm, 82.55 mm): Horizontal Wire, length 5.08 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(153.67 mm, 92.71 mm): Horizontal Wire, length 5.08 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(153.67 mm, 92.71 mm): Horizontal Wire, length 5.08 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(66.04 mm, 161.29 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(73.66 mm, 161.29 mm): Horizontal Wire, length 13.97 mm
+[lib_symbol_mismatch]: Symbol 'Conn_Coaxial' doesn't match copy in library 'Connector'
+    ; warning
+    @(163.83 mm, 92.71 mm): Symbol J9 [Conn_Coaxial]
+
+***** Sheet /Main Board/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(41.91 mm, 63.50 mm): Symbol #FLG01 Pin 1 [Power output, Line]
+    @(107.95 mm, 121.92 mm): Symbol #FLG05 Pin 1 [pwr, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(80.01 mm, 72.39 mm): Symbol U1 Pin 38 [GND, Bidirectional, Line]
+    @(41.91 mm, 63.50 mm): Symbol #FLG01 Pin 1 [Power output, Line]
+
+***** Sheet /JIG0/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(107.95 mm, 121.92 mm): Symbol #FLG05 Pin 1 [pwr, Power output, Line]
+    @(107.95 mm, 121.92 mm): Symbol #FLG05 Pin 1 [pwr, Power output, Line]
+
+***** Sheet /JIG1/
+
+ ** ERC messages: 34  Errors 30  Warnings 4
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

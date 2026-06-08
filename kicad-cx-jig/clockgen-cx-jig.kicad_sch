@@ -1300,7 +1300,7 @@
 			(uuid "2757b8c0-4046-4bea-ad41-8a578e43507f")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "#FLG01")
 					(unit 1)
@@ -1381,7 +1381,7 @@
 			(uuid "6b0043b3-b134-417c-9426-2704d395ee12")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "R2")
 					(unit 1)
@@ -1456,7 +1456,7 @@
 			(uuid "c5165c5e-5aaa-427e-9119-d16dab893c2c")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "J3")
 					(unit 1)
@@ -1531,7 +1531,7 @@
 			(uuid "3c39e573-25aa-4e6c-83f8-067b5d5503c0")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "J4")
 					(unit 1)
@@ -1608,7 +1608,7 @@
 			(uuid "1d26be0b-ce2a-4559-95de-94a0b321cd42")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "#FLG02")
 					(unit 1)
@@ -1689,7 +1689,7 @@
 			(uuid "d902d706-7ea0-4f7b-8d0b-7da8390046ff")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "J1")
 					(unit 1)
@@ -1764,7 +1764,7 @@
 			(uuid "c934974a-a26e-400b-8b44-67c4d78c6c2f")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "J2")
 					(unit 1)
@@ -1842,7 +1842,7 @@
 			(uuid "830e2eeb-54b2-4dbd-b633-8ef46145f523")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "R1")
 					(unit 1)
@@ -1923,7 +1923,7 @@
 			(uuid "7c479c4f-5262-40ad-82d8-c000525b5654")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "R3")
 					(unit 1)
@@ -1998,7 +1998,7 @@
 			(uuid "2f6a7388-954b-404e-a9a4-4090d0504ab2")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "J5")
 					(unit 1)
@@ -2075,7 +2075,7 @@
 			(uuid "e76f53c5-7222-4c18-bde5-491ae0986bfc")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "#PWR01")
 					(unit 1)
@@ -2156,7 +2156,7 @@
 			(uuid "7dab8b08-a24f-4215-b4bc-ebdac0fcb3e3")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "C2")
 					(unit 1)
@@ -2235,7 +2235,7 @@
 			(uuid "a0330568-4d95-4998-9657-6be80b849fa6")
 		)
 		(instances
-			(project "vt610ex-sc3a-clock-gen-adapter"
+			(project "clockgen-cx-jig"
 				(path "/1dbcd153-f5a7-436e-9c59-1246c5e4537f"
 					(reference "C1")
 					(unit 1)

@@ -199,7 +199,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e832071a-dba2-474e-8bf4-c77d1c5885a9")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -406,7 +406,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4277e608-7398-4b5b-84f4-077de90fe5cc")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -513,7 +513,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cbbf6a5c-e02e-43e5-8325-ec934903d692")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -720,7 +720,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/392b0945-b63d-4c8b-9fb0-21a0e323e0b9")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -827,7 +827,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1a71337d-f3d3-499d-8405-af57439008c1")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1036,7 +1036,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*")
 		(path "/8d2c7f13-a8c7-4ac2-a4e0-9fa8bc15c294")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1537,7 +1537,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ccafef40-b14a-4d36-9139-d6ef95efceed")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1645,7 +1645,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b1910f2b-f9c4-415b-b33c-c97ee34c5308")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1752,7 +1752,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/be650c85-f4ed-495c-aaa9-3d6334e9f444")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1958,7 +1958,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f14e818c-4856-473a-aec3-05bcd74cb77e")
 		(sheetname "/")
-		(sheetfile "vt610ex-sc3a-clock-gen-adapter.kicad_sch")
+		(sheetfile "clockgen-cx-jig.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2859,9 +2859,9 @@
 			)
 		)
 	)
-	(group "clockgen-jig"
-		(uuid "bdcbe08e-a6cc-4058-8d79-bc9b02d11c50")
-		(lib_id "GDH_design_blocks:clockgen-jig")
+	(group "CXADC Clockgen Jig"
+		(uuid "92143c78-2ad3-40e9-9d66-3bc63cc58e27")
+		(lib_id "GDH_design_blocks:CXADC Clockgen Jig")
 		(members "005153ef-f33f-4de4-986b-b23dfa565e35" "006152ea-59eb-4fe6-96c0-bdd14b2c34eb"
 			"0d823342-3977-4880-b69b-e62b4d79ff23" "117d4c66-575c-4d55-84a1-1df147c73542"
 			"15d3dee9-0529-4013-a712-4a49c15acf82" "233978b7-7a6b-4673-a3de-cbbd61ec86a3"

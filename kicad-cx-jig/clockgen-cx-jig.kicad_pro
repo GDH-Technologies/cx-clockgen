@@ -508,7 +508,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vt610ex-sc3a-clock-gen-adapter.kicad_pro",
+    "filename": "clockgen-cx-jig.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -832,8 +832,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "vt610ex-sc3a-clock-gen-adapter.kicad_sch",
-        "name": "vt610ex-sc3a-clock-gen-adapter",
+        "filename": "clockgen-cx-jig.kicad_sch",
+        "name": "clockgen-cx-jig",
         "uuid": "1dbcd153-f5a7-436e-9c59-1246c5e4537f"
       }
     ],
@@ -843,7 +843,7 @@
   "sheets": [
     [
       "1dbcd153-f5a7-436e-9c59-1246c5e4537f",
-      "vt610ex-sc3a-clock-gen-adapter"
+      "clockgen-cx-jig"
     ]
   ],
   "text_variables": {

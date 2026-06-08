@@ -537,7 +537,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "cxadc-clockgen.kicad_pro",
+    "filename": "clockgen-main-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -748,7 +748,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -836,6 +836,36 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -877,6 +907,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -891,30 +929,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "cxadc-clockgen.kicad_sch",
-        "name": "CXADC Clockgen",
+        "filename": "clockgen-main-board.kicad_sch",
+        "name": "clockgen-main-board",
         "uuid": "2a3a637b-b94b-4be9-87ef-a5e732197656"
       }
     ],
-    "used_designators": "U1-6,H1-8,#PWR1-12,#FLG1-7,R1-7,J1-14,D1-4,C1-5",
+    "used_designators": "J1-4",
     "variants": []
   },
   "sheets": [
     [
       "2a3a637b-b94b-4be9-87ef-a5e732197656",
-      "CXADC Clockgen"
-    ],
-    [
-      "a0b4abf6-98bc-4c88-b971-3db1dc4287b5",
-      "Main Board"
-    ],
-    [
-      "f929e4f4-c4e5-446b-9077-e2d2715e20d6",
-      "Video CX Jig"
-    ],
-    [
-      "026e20c2-30ab-4e13-886d-66f71a7f8a31",
-      "HiFi Audio CX Jig"
+      "clockgen-main-board"
     ]
   ],
   "text_variables": {

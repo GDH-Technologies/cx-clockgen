@@ -1,0 +1,226 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-06T20:52:47",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2f91e4ff-1d10-4650-a0e5-fe919edb3c31",
+            "violations": [
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1397 mm",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 1.6129
+                            },
+                            "uuid": "bbd135a9-6e83-484d-b7c7-e4498fcf3635"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 1.6129
+                            },
+                            "uuid": "e427033c-f8ec-4a63-a152-d46101070372"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Label 'CLK1_GND'",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 1.6764
+                            },
+                            "uuid": "efa3ca31-5694-4c55-9afe-7e611ff87346"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.7747,
+                                "y": 1.524
+                            },
+                            "uuid": "bcbf95d4-0806-4a5f-a0fd-f20837d573d6"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.524
+                            },
+                            "uuid": "f0322b60-f23c-4e3a-ba8b-4115ce4b8523"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.1557
+                            },
+                            "uuid": "170e4bfc-59e5-404f-a840-ba5f057d36ea"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.7747,
+                                "y": 1.6256
+                            },
+                            "uuid": "7469a294-616e-49e3-9861-23ea81a6c9d8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2032 mm",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.8509
+                            },
+                            "uuid": "172778b7-2607-41e8-9b0a-ca8dcc754869"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.8509
+                            },
+                            "uuid": "f7e0d6ef-68e4-416e-a325-468b1f2e6bab"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1524 mm",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.8255
+                            },
+                            "uuid": "474d0e39-0470-4b8c-a310-d6239f425888"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 0.8255
+                            },
+                            "uuid": "5199acb0-ed90-4283-9444-b728b05e0a35"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 1.6129
+                            },
+                            "uuid": "e427033c-f8ec-4a63-a152-d46101070372"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1397 mm",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 1.6129
+                            },
+                            "uuid": "bbd135a9-6e83-484d-b7c7-e4498fcf3635"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                }
+            ]
+        },
+        {
+            "path": "/Main Board/",
+            "uuid_path": "/2f91e4ff-1d10-4650-a0e5-fe919edb3c31/a0b4abf6-98bc-4c88-b971-3db1dc4287b5",
+            "violations": [
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 38 [GND, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 0.7239
+                            },
+                            "uuid": "98e9d4ce-75b7-4a3b-94b4-14a92d230d00"
+                        },
+                        {
+                            "description": "Symbol #FLG01 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.635
+                            },
+                            "uuid": "7d40f6ff-747f-48d5-ad27-bdf7c217aef8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "clockgen-main-board.kicad_sch"
+}
