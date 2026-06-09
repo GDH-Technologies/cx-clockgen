@@ -731,7 +731,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/drill/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
