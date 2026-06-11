@@ -45,20 +45,26 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Purple")
 				(thickness 0.01)
+				(material "Liquid Ink")
+				(epsilon_r 3.3)
+				(loss_tangent 0)
 			)
 			(layer "F.Cu"
 				(type "copper")
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
-				(type "core")
+				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 1.51)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -70,15 +76,20 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Purple")
 				(thickness 0.01)
+				(material "Liquid Ink")
+				(epsilon_r 3.3)
+				(loss_tangent 0)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
-			(copper_finish "None")
+			(copper_finish "HAL SnPb")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -97,6 +108,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -7100,7 +7112,7 @@
 	(via
 		(at 116.8 94)
 		(size 0.8)
-		(drill 0.3)
+		(drill 0.6)
 		(layers "F.Cu" "B.Cu")
 		(net "/PCM.5V")
 		(uuid "0e3991f7-b551-4dfb-8319-828a1a38b62c")
