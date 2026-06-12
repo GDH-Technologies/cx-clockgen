@@ -872,6 +872,7 @@
     ]
   ],
   "text_variables": {
+    "board-ref": "CX_JIG",
     "proj-author": "Reece Dodge",
     "proj-company": "GDH Technologies LLC",
     "proj-fab": "JLCPCB",
